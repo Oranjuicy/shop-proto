@@ -3,7 +3,7 @@ import React from "react";
 function Header(){
     return (
         <header class="header">
-            <h1>SAramics Market</h1>
+            <h1>ZAramics Market</h1>
         </header>
     );
 }

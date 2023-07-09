@@ -8,7 +8,7 @@ function App() {
         <div>
             <Header />
             <Footer />
-            <Namecard />
+            <Namecard price="R300" artistName="Retief Ryke" artworkName="Big Jug" description="A large stoneware jug" />
 
         </div>
     );

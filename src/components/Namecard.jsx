@@ -18,7 +18,7 @@ const bull = (
 export default function Namecard(props) {
   return (
     <Card sx={{ maxWidth: 275 }}>
-      <CardContent>
+      <CardContent >
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           {props.artistName}
         </Typography>

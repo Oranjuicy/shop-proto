@@ -16,3 +16,8 @@ footer {
     height: 2.5rem;
     color: #AA8B56;
   }
+
+  .MuiPaper-root {
+    width: 50%;
+    margin: auto;
+  }

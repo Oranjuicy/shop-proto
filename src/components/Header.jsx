@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header(){
+export default function Header(){
     return (
         <header class="header">
             <h1>ZAramics Market</h1>
@@ -8,4 +8,3 @@ function Header(){
     );
 }
 
-export default Header;

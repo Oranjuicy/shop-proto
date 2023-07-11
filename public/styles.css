@@ -30,3 +30,15 @@ footer {
 
 /* IDs */
 
+#leftArrow {
+  margin-left: 25%;
+  margin-top: 10rem;
+  position: absolute;
+}
+
+#rightArrow {
+  margin-left: 75%;
+  margin-top: 10rem;
+  position: absolute;
+}
+

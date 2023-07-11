@@ -10,10 +10,11 @@ function App() {
     return (
         <div>
             <Header />
-            <Footer />
+            <LeftButton />
+            <RightButton />
             <Item image="https://picsum.photos/seed/picsum/200/300"/>
             <Namecard price="R300" artistName="Retief Ryke" artworkName="Big Jug" description="A large stoneware jug" />
-            <LeftButton />
+            <Footer />
 
         </div>
     );

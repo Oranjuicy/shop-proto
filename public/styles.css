@@ -1,12 +1,9 @@
+/* Tags */
 
 body {
     background-color: #F3DEBA;
 }
 
-.header {
-    color: #AA8B56;
-    font-family:'Times New Roman', Times, serif;
-}
 
 footer {
     position: absolute;
@@ -17,7 +14,19 @@ footer {
     color: #AA8B56;
   }
 
+/* Classes */
+
   .MuiPaper-root {
     width: 50%;
-    margin: auto;
+    margin: 2.5rem auto;
   }
+
+  .artworkImage {
+    width: 15;
+    margin: 2.5rem auto;
+    display: block;
+
+  }
+
+/* IDs */
+

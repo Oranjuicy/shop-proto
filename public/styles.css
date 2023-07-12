@@ -21,11 +21,12 @@ footer {
 
   .MuiPaper-root {
     width: 50%;
-    margin: 2.5rem auto;
+    margin: 400px 550px;
+    position: fixed;
   }
 
   .artworkImage {
-    width: 15;
+    width: 350px;
     margin: 2.5rem auto;
     display: block;
 

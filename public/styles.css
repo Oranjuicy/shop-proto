@@ -1,8 +1,11 @@
 /* Tags */
 
 body {
-    background-color: #F3DEBA;
-}
+    background-image: url("https://media.istockphoto.com/id/1190319110/photo/3d-exhibition-stand-white-blank-empty-podium-isolated-on-gray-background-for-presentation-and.jpg?s=612x612&w=0&k=20&c=nd4pBtWDP6r4k67sPpmJFvFvmN4BkYoA9BZZpa8NHOw=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
 
 
 footer {
@@ -40,5 +43,9 @@ footer {
   margin-left: 75%;
   margin-top: 10rem;
   position: absolute;
+}
+
+#pedestal {
+  size: 200%;
 }
 

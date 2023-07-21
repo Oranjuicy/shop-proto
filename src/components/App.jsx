@@ -11,7 +11,6 @@ function App() {
     
     const [currentPot, setPot] = useState(artworkList[0]);
 
-
     function handleClick(event){
 
         const id = event.currentTarget.id;
@@ -22,6 +21,7 @@ function App() {
             setPot(artworkList[artworkList.indexOf(currentPot) + 1])
         }
     
+        console.log(id)
     }
     
     return (

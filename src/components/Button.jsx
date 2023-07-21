@@ -9,7 +9,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 function LeftButton(props) {
   return (<div id="leftArrow">
     <Box sx={{ '& > :not(style)': { m: 1 } }}>
-      <Fab >
+      <Fab  onClick={props.onClick}>
         <ArrowBackIosIcon />
       </Fab>
     </Box>
@@ -20,7 +20,7 @@ function LeftButton(props) {
 function RightButton(props) {
     return (<div id="rightArrow">
       <Box sx={{ '& > :not(style)': { m: 1 } }}>
-        <Fab >
+        <Fab onClick={props.onClick} >
           <ArrowForwardIosIcon />
         </Fab>
       </Box>

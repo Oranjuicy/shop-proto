@@ -1,31 +1,27 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from "./Header"
 import Footer from "./Footer";
 import Namecard from "./Namecard";
 import Item from "./Item";
 import {LeftButton, RightButton} from "./Button";
-import { set } from "mongoose";
+import artworkList from "../artworkList";
 
 function App() {
 
     
-    const [currentPot, setPot] = useState("");
+    const [currentPot, setPot] = useState(artworkList[0]);
 
-    useEffect(()=>{
-        setPot("https://png.pngtree.com/png-clipart/20220419/original/pngtree-clay-pot-png-png-image_7538985.png")
-    }, [])
 
     function handleClick(event){
 
         const id = event.currentTarget.id;
 
-        if (id == "leftArrow") {
-            setPot("https://m.media-amazon.com/images/I/51EHZTKUI-L.jpg")
+        if (id === "leftArrow") {
+            setPot(artworkList[artworkList.indexOf(currentPot) - 1])
         } else {
-            setPot("https://m.media-amazon.com/images/I/71DECVSrOcL._AC_UF1000,1000_QL80_.jpg")
+            setPot(artworkList[artworkList.indexOf(currentPot) + 1])
         }
     
-        console.log(id)
     }
     
     return (

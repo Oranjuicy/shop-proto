@@ -21,7 +21,6 @@ function App() {
             setPot(artworkList[artworkList.indexOf(currentPot) + 1])
         }
     
-        console.log(id)
     }
     
     return (
